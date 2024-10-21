@@ -1,0 +1,37 @@
+@import "./assets/styles/colors.scss";
+
+html,
+body {
+  background-color: $stone-100;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "YoungSerif";
+  font-weight: 400;
+}
+p {
+  font-family: "Outfit";
+  font-size: 16px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  width: 100%;
+  margin: 0;
+  height: 1px;
+  border-style: none;
+  background-color: $stone-150;
+}

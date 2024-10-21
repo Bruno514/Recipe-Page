@@ -1,0 +1,15 @@
+@import "./assets/styles/colors.scss";
+
+ul li {
+  display: flex;
+  margin-block: 0.5rem;
+  align-items: center;
+  gap: 2rem;
+  color: $rose-800;
+  p {
+    color: $stone-600;
+  }
+  ::before {
+    margin-left: 4rem;
+  }
+}
